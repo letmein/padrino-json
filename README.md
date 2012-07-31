@@ -1,4 +1,4 @@
-padrino_json
+padrino-json
 ============
 
 Tiny JSON helper for Padrino 
