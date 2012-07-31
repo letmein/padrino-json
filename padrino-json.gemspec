@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'padrino_json'
+  s.name        = 'padrino-json'
   s.version     = '0.0.1'
   s.date        = '2012-07-31'
   s.summary     = "JSON helper for Padrino"
@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Yuriy Kharchenko"]
   s.email       = 'yuri.kharchenko@gmail.com'
   s.files       = ["lib/padrino_json.rb"]
-  s.homepage    = 'https://github.com/letmein/padrino_json'
+  s.homepage    = 'https://github.com/letmein/padrino-json'
 end
