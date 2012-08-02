@@ -14,7 +14,7 @@ json_data
 
 In Gemfile
 ```ruby
-gem "padrino-json", "~> 0.0.1"
+gem "padrino-json", "~> 0.0.1", :require => "padrino_json"
 ```
 
 In app.rb
