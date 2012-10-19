@@ -2,7 +2,7 @@ module Padrino
   module JSON
     module Helpers
       def json_data
-        ::JSON.parse(request.body.string)
+        ::JSON.parse(request.body.read)
       end
     end
 
