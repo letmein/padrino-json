@@ -2,6 +2,7 @@ module Padrino
   module JSON
     module Helpers
       def json_data
+        request.body.rewind
         ::JSON.parse(request.body.read)
       end
     end
