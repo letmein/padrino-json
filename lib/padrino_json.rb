@@ -3,7 +3,7 @@ module Padrino
     module Helpers
       def json_data
         request.body.rewind
-        ::JSON.parse(request.body.read)
+        ::Oj.load(request.body.read)
       end
     end
 
